@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "93F11AE9-2E78-444A-A5F8-7F410ED12EC5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TmdbMovieApp/TableCell/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "TableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358 - 83e04d2a01749c97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TmdbMovieApp.TableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TmdbMovieApp.TableViewCell"
+                  moduleName = "TmdbMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilter/Documents/TmdbMovieApp/TmdbMovieApp/TableCell/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358 - ed96588932ada4ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TmdbMovieApp.TableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TmdbMovieApp.TableViewCell"
+                  moduleName = "TmdbMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilter/Documents/TmdbMovieApp/TmdbMovieApp/TableCell/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "157">
+               </Location>
+               <Location
+                  uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358 - 34f9900e5ad201ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TmdbMovieApp.TableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TmdbMovieApp.TableViewCell&gt;"
+                  moduleName = "TmdbMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilter/Documents/TmdbMovieApp/TmdbMovieApp/TableCell/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358 - 5537619d7cac521d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TmdbMovieApp.TableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TmdbMovieApp.TableViewCell&gt;"
+                  moduleName = "TmdbMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilter/Documents/TmdbMovieApp/TmdbMovieApp/TableCell/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "99EB0F66-5CD3-4C94-9F5B-C2102CCC9358 - 18f0730e9853ffdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TmdbMovieApp.TableViewCell.__deallocating_deinit"
+                  moduleName = "TmdbMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilter/Documents/TmdbMovieApp/TmdbMovieApp/TableCell/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

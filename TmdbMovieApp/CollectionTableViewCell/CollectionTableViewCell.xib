@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CollectionTableViewCell" rowHeight="450" id="KGk-i7-Jjw" customClass="CollectionTableViewCell" customModule="TmdbMovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1175" height="451"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="1175" height="451"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sr7-Nj-TCL">
+                        <rect key="frame" x="0.0" y="0.0" width="1175" height="111"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                    </view>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="icQ-TM-kD4">
+                        <rect key="frame" x="0.0" y="25" width="1175" height="426"/>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EsO-E7-9CT">
+                            <size key="itemSize" width="220" height="420"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sr7-Nj-TCL" firstAttribute="leading" secondItem="icQ-TM-kD4" secondAttribute="leading" id="7UW-0E-9hL"/>
+                    <constraint firstItem="sr7-Nj-TCL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-70" id="Nox-TS-7Ki"/>
+                    <constraint firstItem="icQ-TM-kD4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-45" id="PLl-Rw-84M"/>
+                    <constraint firstAttribute="bottom" secondItem="sr7-Nj-TCL" secondAttribute="bottom" constant="340" id="Zl3-Mc-Jgz"/>
+                    <constraint firstItem="sr7-Nj-TCL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-20" id="kU2-Rf-G5h"/>
+                    <constraint firstItem="sr7-Nj-TCL" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="npt-vv-aXB"/>
+                    <constraint firstItem="sr7-Nj-TCL" firstAttribute="trailing" secondItem="icQ-TM-kD4" secondAttribute="trailing" id="tbL-pM-BlX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="icQ-TM-kD4" secondAttribute="bottom" constant="-45" id="zBd-X1-mOo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="icQ-TM-kD4" id="nfp-yu-IRD"/>
+            </connections>
+            <point key="canvasLocation" x="631.29770992366412" y="147.53521126760563"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
